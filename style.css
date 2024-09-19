@@ -223,6 +223,250 @@ header.scrolled {
   transition: .2s linear;
 }
 /*-----------------home slider section------------------------*/
+.home-section{
+  position: relative;
+  margin-bottom: 2rem;
+}
+.slider{
+  font-family: "Roboto", sans-serif;
+  max-height: 80vh;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+.slider__slider{
+  height: 80vh;
+  min-width: 100vw;
+  width: 100%;
+  scroll-snap-align: start;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.slider__slider .slide-detail {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+}
+.slider__slider .slide-detail h1 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+}
+.slider__slider .slide-detail h1::before{
+  position: absolute;
+  content: '';
+  background: #e2e2e244;
+  width: 380px;
+  height: 1px;
+  bottom: -40%;
+  left: 20%;
+}
+.slider__slider .slide.slide-detail h1::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: -50%;
+  left: 50%;
+  background: #f7b90f;
+}
+.slider__slider .slide-detail p{
+  font-size: 14px;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.slide1{
+  background-image: url('img/slider.jpg');
+}
+.slide2{
+  background-image: url('img/1.png');
+}
+.slide3{
+  background-image: url('img/9.jpg');
+}
+.slide4{
+  background-image: url('img/0.webp');
+}
+.slide5{
+  background-image: url('img/4.jpg');
+}
+.left-arrow,
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: var(--light-green);
+  box-shadow: 0 0 0 6px rgb(255 255 255 / 40%);
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+.right-arrow{  
+  right: 1rem;
+}
+.left-arrow{
+  left: 1rem;
+}
+.hero-dec-top,
+.hero-dec-bottom{
+  position: absolute;
+  left: 5%;
+  width: 100px;
+  height: 100px; 
+}
+.hero-dec-top{
+  top: 4%;
+  border-left: 2px solid #e2e2e255;
+  border-top: 2px solid #e2e2e255;
+}
+.hero-dec-bottom{
+  bottom: 5%;
+  border-left: 2px solid #e2e2e255;
+  border-bottom: 2px solid #e2e2e255;
+}
+.thumb{
+  max-width: 1200px;
+  box-shadow: var(--box-shadow);
+  margin: 2rem auto;
+  padding: 2%;
+}
+.box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.thumb .box-container .box {
+  text-align: center;
+  margin: 1rem;
+  line-height: 1.5;
+  background: #fff;
+  padding-bottom: 1rem;
+  color: gray;
+}
+.thumb .box-container .box img{
+  transition: all 800ms ease-in-out;
+}
+.thumb .box-container .box:hover img{
+  transform: rotate(180deg);
+}
+.thumb .box-container .box h3{
+  text-transform: capitalize;
+  color: var(--green);
+}
+.box-container .box p{
+  color: #555;
+  margin: .5rem;
+}
+.thumb .box-container .box i{
+  color: var(--green);
+  font-size: 40px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid var(--green);
+  cursor: pointer;
+}
+.container .box{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .box span{
+  color: var(--green);
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+}
+.container .box h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.shop{
+  background-image: url('img/bg.jpg');
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+}
+.shop .row{
+  display: flex;
+  justify-content: center;
+}
+.shop .row .top-footer{
+  margin-top: 2rem;
+  text-align: center !important;
+  text-transform: capitalize;
+  font-size: 1.5vw;
+  padding: 3rem 1rem;
+}
+.shop .box-container{
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+.shop .box-container .box{
+  margin: 1rem;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  background-color: #fff;
+}
+.shop .box-container img{
+  width: 100%;
+}
+.shop .btn{
+  position: absolute;
+  left: 30%;
+  bottom: -3%;
+}
+.shop-category .box{
+  position: relative;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.shop-category .detail{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  line-height: 2;
+  text-align: center;
+}
+.shop-category .detail h1{
+  font-size: 2em;
+}
+.shop-category .detail span{
+  font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------footer section--------------------------*/
 .top-footer{
