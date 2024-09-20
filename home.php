@@ -10,13 +10,12 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <title>Medicinal Plants - home page</title>
 </head>
-<body>
-      <?php include 'components/header.php'; ?>
-      <div class="main">
-            <?php include 'components/footer.php'; ?>
+<body>  
+      <?php include 'components/header.php';?>    
+      <div class="main">            
             <section class="home-section">
                   <div class="slider">
                         <div class="slider__slider slide1">
@@ -206,6 +205,27 @@
                               <div class="detail">
                                     <h3>worldwide delivery</h3>
                                     <p>dropship worldwide</p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section>
+                  <div class="brand">
+                        <div class="box-container">
+                              <div class="box">
+                                    <img src="img/brand (1).jpg" >
+                              </div>
+                              <div class="box">
+                                    <img src="img/brand (2).jpg" >
+                              </div>
+                              <div class="box">
+                                    <img src="img/brand (3).jpg" >
+                              </div>
+                              <div class="box">
+                                    <img src="img/brand (4).jpg" >
+                              </div>
+                              <div class="box">
+                                    <img src="img/brand (5).jpg" >
                               </div>
                         </div>
                   </div>
