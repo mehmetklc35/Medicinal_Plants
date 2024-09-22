@@ -15,8 +15,8 @@
       <i class="bx bx-list-plus" id="menu-btn" style="font-size: 2rem;"></i>
     </div>
     <div class="user-box">
-      <p>username : <span><?php //echo $_SESSION['user_name']; ?></span></p>
-      <p>Email : <span><?php //echo $_SESSION['user_email']; ?></span></p>
+      <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
+      <p>Email : <span><?php echo $_SESSION['user_email']; ?></span></p>
       <a href="login.php" class="btn">login</a>
       <a href="register.php" class="btn">register</a>
       <form method="post">

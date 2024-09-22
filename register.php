@@ -18,13 +18,33 @@
             $pass = $_POST['pass'];
             $pass = filter_var($pass, FILTER_SANITIZE_STRING);
             $cpass = $_POST['cpass'];
-            $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);           
+            $cpass = filter_var($cpass, FILTER_SANITIZE_STRING);  
             
-      }
-          
+            $select_user = $conn->prepare("SELECT * FROM `users` WHERE email = ?");
+            $select_user->execute([$email]);
+            $row = $select_user->fetch(PDO::FETCH_ASSOC);
 
-
-
+            if ($select_user->rowCount() > 0) {
+                  $message[] = 'email already exists';
+                  echo 'email already exists';              
+            }else{
+                  if($pass != $cpass){
+                        $message[] = 'confirm your password';
+                        echo 'confirm your password';
+                  }else{
+                        $insert_user = $conn->prepare("INSERT INTO `users`(id,name,email,password) VALUES(?,?,?,?)");
+                        $insert_user->execute([$id,$name,$email,$pass]);
+                        $select_user = $conn->prepare("SELECT * FROM `users` WHERE email = ? AND password = ?");
+                        $select_user->execute([$email,$pass]);
+                        $row = $select_user->fetch(PDO::FETCH_ASSOC);
+                        if ($select_user->rowCount() > 0) {
+                              $_SESSION['user_id'] = $row['id'];
+                              $_SESSION['user_name'] = $row['name'];
+                              $_SESSION['user_email'] = $row['email'];                              
+                        }
+                  }
+            }            
+      }      
 ?>
 <style type="text/css">
       <?php include 'style.css'; ?>
