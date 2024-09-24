@@ -101,21 +101,21 @@
                                     <i class="bx bxs-map-pin"></i>
                                     <div>
                                           <h4>address</h4>
-                                          <p>1092 Merigold Lane, Coral Way</p>
+                                          <p>ıstanbul</p>
                                     </div>
                               </div>
                               <div class="box">
                                     <i class="bx bxs-phone-call"></i>
                                     <div>
                                           <h4>phone number</h4>
-                                          <p>987545645674664</p>
+                                          <p>0215456465</p>
                                     </div>
                               </div>
                               <div class="box">
                                     <i class="bx bxs-map-pin"></i>
                                     <div>
                                           <h4>email</h4>
-                                          <p>mehmetkilic35@autlook.com</p>
+                                          <p>mehmmlakiemn35@autlook.com</p>
                                     </div>
                               </div>
                         </div>

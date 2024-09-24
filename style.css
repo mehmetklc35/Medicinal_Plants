@@ -18,7 +18,7 @@ html{
   -webkit-text-size-adjust: 100%;
 }
 body{
-  background-image: url('img/body-bg.jpg');
+  background-image: url('img/background-2.jpg');
   width: 100%;
 }
 .main{
@@ -125,10 +125,10 @@ button{
   cursor: pointer;
 }
 .banner{
-  background-image: url('img/banner.jpg');
+  background-image: url('img/banner-1.jpg');
   background-size: cover;
   background-position: center;
-  background-color: var(--green);
+  background-color: #000;
   width: 100%;
   height: 50vh;
   text-align: center;
@@ -137,8 +137,9 @@ button{
   align-items: center;
 }
 .banner h1{
-  color: #fff;
-  margin-left: 3rem;
+  color: #0a0a0a; 
+  margin-top: 1rem;
+  margin-left: -2rem;
   text-transform: uppercase;
 }
 .title2{
@@ -286,19 +287,19 @@ header.scrolled {
   margin-bottom: 2rem;
 }
 .slide1{
-  background-image: url('img/slider.jpg');
+  background-image: url('img/footer.webp');
 }
 .slide2{
-  background-image: url('img/1.png');
+  background-image: url('img/home-1.webp');
 }
 .slide3{
-  background-image: url('img/9.jpg');
+  background-image: url('img/home-2.jpg');
 }
 .slide4{
-  background-image: url('img/0.webp');
+  background-image: url('img/home-3.webp');
 }
 .slide5{
-  background-image: url('img/4.jpg');
+  background-image: url('img/home-4.jpg');
 }
 .left-arrow,
 .right-arrow{
@@ -708,7 +709,7 @@ textarea{
   width: 40vw;
 }
 footer{
-  background-image: url('img/0.webp');
+  background-image: url('img/footer.webp');
   width: 100%;
   min-height: 73vh;
   background-repeat: no-repeat;

@@ -93,25 +93,25 @@
                   <div class="box-container">
                         <div class="box">
                               <img src="img/thumb2.jpg">
-                              <h3>green tea</h3>
+                              <h3>Green tea</h3>
                               <p>Lorem ipsum dolor sit amet</p>
                               <i class="bx bx-chevron-right"></i>
                         </div>
                         <div class="box">
                               <img src="img/thumb0.jpg">
-                              <h3>lemon tea</h3>
+                              <h3>Sage tea</h3>
                               <p>Lorem ipsum dolor sit amet</p>
                               <i class="bx bx-chevron-right"></i>
                         </div>
                         <div class="box">
                               <img src="img/thumb1.jpg">
-                              <h3>green coffee</h3>
+                              <h3>chamomile tea</h3>
                               <p>Lorem ipsum dolor sit amet</p>
                               <i class="bx bx-chevron-right"></i>
                         </div>
                         <div class="box">
                               <img src="img/thumb.jpg">
-                              <h3>green tea</h3>
+                              <h3>lemon balm tea</h3>
                               <p>Lorem ipsum dolor sit amet</p>
                               <i class="bx bx-chevron-right"></i>
                         </div>
@@ -143,27 +143,27 @@
                   </div>
                   <div class="box-container">
                         <div class="box">
-                              <img src="img/card.jpg">
+                              <img src="img/card.jpeg">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                         <div class="box">
-                              <img src="img/card0.jpg">
+                              <img src="img/card-0.jpg">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                         <div class="box">
-                              <img src="img/card1.jpg">
+                              <img src="img/card-2.jpg">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                         <div class="box">
-                              <img src="img/card2.jpg">
+                              <img src="img/card-3.png">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                         <div class="box">
-                              <img src="img/10.jpg">
+                              <img src="img/card-4.webp">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                         <div class="box">
-                              <img src="img/6.webp">
+                              <img src="img/card-5.webp">
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                   </div>
@@ -182,7 +182,7 @@
                               <img src="img/7.jpg">
                               <div class="detail">
                                     <span>new in taste</span>
-                                    <h1>coffee house</h1>
+                                    <h1>fresh green tea</h1>
                                     <a href="view_products.php" class="btn">shop now</a>
                               </div>
                         </div>
@@ -219,28 +219,7 @@
                               </div>
                         </div>
                   </div>
-            </section>
-            <section>
-                  <div class="brand">
-                        <div class="box-container">
-                              <div class="box">
-                                    <img src="img/brand (1).jpg" >
-                              </div>
-                              <div class="box">
-                                    <img src="img/brand (2).jpg" >
-                              </div>
-                              <div class="box">
-                                    <img src="img/brand (3).jpg" >
-                              </div>
-                              <div class="box">
-                                    <img src="img/brand (4).jpg" >
-                              </div>
-                              <div class="box">
-                                    <img src="img/brand (5).jpg" >
-                              </div>
-                        </div>
-                  </div>
-            </section>
+            </section>           
             <?php include 'components/footer.php'; ?>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>

@@ -9,7 +9,7 @@
       <div class="overlay"></div>
       <div class="footer-content">
             <div class="img-box">
-                  <img src="img/logo2.png">
+                  <img src="img/">
             </div>
             <div class="inner-footer">
                   <div class="card">
@@ -20,7 +20,7 @@
                               <li>community matters</li>
                               <li>press</li>
                               <li>blog</li>
-                              <li>bouqs video</li>
+                              <li>video</li>
                         </ul>
                   </div>
                   <div class="card">
@@ -37,12 +37,12 @@
                   <div class="card">
                         <h3>local</h3>
                         <ul>
-                              <li>allahabad</li>
-                              <li>mumbai</li>
-                              <li>new delhi</li>
-                              <li>old delhi</li>
-                              <li>new york</li>
-                              <li>los angeles</li>
+                              <li>Monaco</li>
+                              <li>Kopenhag</li>
+                              <li>Dubai</li>
+                              <li>Istanbul</li>
+                              <li>Amsterdam</li>
+                              <li>Los Angeles</li>
                         </ul>
                   </div>
                   <div class="card">

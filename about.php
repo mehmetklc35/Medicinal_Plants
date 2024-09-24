@@ -35,34 +35,34 @@
             </div> 
             <div class="about-category">
                   <div class="box">
-                        <img src="img/3.webp">
+                        <img src="img/3-1.jpg">
                         <div class="detail">
-                              <span>coffee</span>
-                              <h1>lemon green</h1>
+                              <span>plants</span>
+                              <h1>rose hıps</h1>
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                   </div>
                   <div class="box">
-                        <img src="img/about.png">
+                        <img src="img/3-2.webp">
                         <div class="detail">
-                              <span>coffee</span>
-                              <h1>lemon Teaname</h1>
+                              <span>plants</span>
+                              <h1>Devil's Claw</h1>
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                   </div>
                   <div class="box">
-                        <img src="img/2.webp">
+                        <img src="img/3-3.jpg">
                         <div class="detail">
-                              <span>coffee</span>
-                              <h1>lemon Teaname</h1>
+                              <span>plants</span>
+                              <h1>Blueberry</h1>
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                   </div>
                   <div class="box">
-                        <img src="img/1.webp">
+                        <img src="img/3-4.png">
                         <div class="detail">
-                              <span>coffee</span>
-                              <h1>lemon green</h1>
+                              <span>plants</span>
+                              <h1>Stinging Nettle</h1>
                               <a href="view_products.php" class="btn">shop now</a>
                         </div>
                   </div>
@@ -71,10 +71,7 @@
                   <div class="title">
                         <img src="img/download.png" class="logo">
                         <h1>why choose us</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, aüeaiüaiçcaüeüaieüaiüaiüaut i
-                        usto pl
-                              aceat.
-                        </p>
+                        <p>You want results? We do too!</p>
                   </div>
                   <div class="box-container">
                         <div class="box">
@@ -110,7 +107,7 @@
             <div class="about">
                   <div class="row">
                         <div class="img-box">
-                              <img src="img/3.png">
+                              <img src="img/3-1-1.webp">
                         </div>
                         <div class="detail">
                               <h1>visit our beautiful showroom!</h1>
@@ -125,35 +122,26 @@
                   <div class="title">
                         <img src="img/download.png" class="logo">
                         <h1>what people say about us</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Quas voluptas, ab, architecto possimus quisquam ipsam 
-                        blanditiis incidunt eaque nostrum dolorum pariatur deserunt ipsa, 
-                        quidem animi numquam sequi veritatis nesciunt dolores.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                   </div>
                         <div class="container">
                               <div class="testimonial-item active">
                                     <img src="img/01.jpg">
-                                    <h1>sara smith</h1>
+                                    <h1>Sara</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt veritatis asperiores rem, cumque veniam deserunt facere neque sit sint? 
-                                    Quos nobis doloribus voluptas eaieiuaaaaaaaaaaaaaaa ueaaaaaaaaaaaaaaaaaaaaaaeaueua
-                                    corrupti totam maxime voluptates ueaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaiueuae
-                                    ipsum voluptate.</p>
+                                    </p>
                               </div>
                               <div class="testimonial-item">
                                     <img src="img/02.jpg">
-                                    <h1>john smith</h1>
+                                    <h1>king</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt veritatis asperiores rem, cumque veniam deserunt facere neque sit sint? 
-                                    Quos nobis doloribus voluptas eaieiuaaaaaaaaaaaaaaa ueaaaaaaaaaaaaaaaaaaaaaaeaueua
-                                    corrupti totam maxime voluptates ueaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaiueuae
-                                    ipsum voluptate.</p>
+                                    </p>
                               </div>
                               <div class="testimonial-item">
                                     <img src="img/03.jpg">
-                                    <h1>maya smith</h1>
+                                    <h1>Helena</h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt veritatis asperiores rem, cumque veniam deserunt facere neque sit sint? 
-                                    Quos nobis doloribus voluptas eaieiuaaaaaaaaaaaaaaa ueaaaaaaaaaaaaaaaaaaaaaaeaueua
-                                    corrupti totam maxime voluptates ueaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaiueuae
-                                    ipsum voluptate.</p>
+                                    </p>
                               </div>
                               <div class="left-arrow" onclick="nextSlide()"><i class="bx bxs-left-arrow-alt"></i></div>
                               <div class="right-arrow" onclick="prevSlide()"><i class="bx bxs-right-arrow-alt"></i></div>
